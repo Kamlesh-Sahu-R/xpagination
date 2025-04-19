@@ -12,7 +12,10 @@ export default function Pagination(){
         fetch(employeesData_url)
             .then(res => res.json())
             .then(data => setEmployees(data))
-            .catch(error => console.log(`Failed to fetch with error: ${error}`));
+            .catch(error => {
+                console.log(`Failed to fetch with error: ${error}`);
+                alert("failed to fetch data");
+            });
     }, []);
 
     const indexOfLastEmployee = currentPage * employeesPerPage;
