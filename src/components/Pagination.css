@@ -1,0 +1,45 @@
+.container{
+    margin: 5px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pageIndicator{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(48, 247, 184, 0.941);
+    border-radius: 4px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(48, 247, 184, 0.941);
+    border-radius: 4px;
+    border: 0;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+thead {
+    background-color: rgba(48, 247, 184, 0.941);
+    color: white;
+}
+
+th, td{
+    padding: 12px 15px;
+    text-align: left;
+}
